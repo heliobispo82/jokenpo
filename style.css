@@ -68,3 +68,30 @@ p {
 .machine-score span{
     color: red;
 }
+
+@media screen and (max-width: 500px) {
+    .container {
+        width: 350px;
+    }
+    p {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .container {
+        width: 280px;
+    }
+    p {
+        font-size: 20px;
+    }
+
+    button {
+        width: 70px;
+        font-size: 35px;
+    }
+    #scissors {
+        width: 70px;
+        font-size: 35px;
+    }
+}
